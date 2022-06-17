@@ -1,0 +1,49 @@
+.swal2-title {
+    color: black !important;
+    font-family: "VCR OSD Mono";
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: black !important;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    font-family: "VCR OSD Mono";
+    outline: none !important;
+}
+
+.swal2-styled.swal2-confirm:hover {
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
+    color: rgba(0, 0, 0, var(--tw-text-opacity));
+    border: 2px solid black !important;
+}
+
+.swal2-styled.swal2-deny {
+    background-color: black !important;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    font-family: "VCR OSD Mono";
+    outline: none !important;
+}
+
+.swal2-styled.swal2-deny:hover {
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
+    color: rgba(0, 0, 0, var(--tw-text-opacity));
+    border: 2px solid black !important;
+}
+
+
+.swal2-styled.swal2-cancel {
+    background-color: black !important;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: "VCR OSD Mono";
+    outline: none !important;
+}
+
+.swal2-styled.swal2-cancel:hover {
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity)) !important;
+    color: rgba(0, 0, 0, var(--tw-text-opacity));
+    border: 2px solid black !important;
+}

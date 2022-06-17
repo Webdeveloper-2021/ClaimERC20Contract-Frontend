@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './font.css';
+@import './animation.css';
+
+@import './sweetalert2.css';
+
+.container {
+    max-width: 1200px !important;
+}
+
+.spec1 {
+    font-family: "VCR OSD Mono";
+}
